@@ -20,7 +20,7 @@
     - name: Copy the custom index page (Jinja2 template)
       template:
         src: /myrepo/index.j2
-        dest: /var/www/html/index.html  # ✅ Changed here
+        dest: /var/www/html/index.html  # Changed here
         owner: root
         group: root
         mode: '0644'
